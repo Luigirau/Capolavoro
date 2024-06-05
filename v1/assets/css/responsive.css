@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px){
+    nav ul{display: none;}
+    nav > a{display: block;}
+
+    /*** MAIN - INFO ***/
+
+    #info{width: 120%; height: 100vh;}
+    #info .images{height: 75vh; flex-direction: column;}
+    #info .images span{width: 50%; margin: 15px;}
+
+    /*** MAIN - COOKBOOK REDIRECTION ***/
+
+    #cookbook-redirection{width: 90vw;}
+
+    /*** MAIN - CONTACTS ***/
+
+    #contacts span{display: inline;}
+    #contacts form input{width: 100%; margin-top: 15px;}
+}

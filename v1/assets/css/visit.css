@@ -1,0 +1,41 @@
+@import url('style.css');
+
+
+
+/*** MAIN - HERO ***/
+
+#hero{
+    background: url('../images/other/visit-hero.jpg') center/cover;
+}
+
+
+
+/*** MAIN - CARD INFO ***/
+
+#card-info{
+    padding: 5vh 5vw;
+}
+
+#card-info .card{
+    justify-content: space-around; 
+    margin: 25px 0;
+}
+
+#card-info .card:nth-child(even){flex-direction: row-reverse;}
+#card-info .text{max-width: 50%; display: flex; flex-direction: column; gap: 10px; padding: 10px 25px; text-align: left;}
+#card-info .text h3{display: inline;}
+
+#card-info .card span{width: 300px; height: 200px; display: flex; border-radius: 15px;}
+
+#card-info .card:nth-child(1) span{background: url('../images/other/visit-1.png') center/cover no-repeat;}
+#card-info .card:nth-child(2) span{background: url('../images/other/visit-2.png') center/cover no-repeat;}
+#card-info .card:nth-child(3) span{background: url('../images/other/visit-3.png') center/cover no-repeat;}
+
+
+
+/*** MAIN - CONTACTS ***/
+
+#contacts{margin: 0 0 50px 0; padding: 0 10vw; flex-direction: column; align-items: flex-start;}
+#contacts h3{font-size: 2em; margin: 10px 10px 10px 0;}
+#contacts img{width: 25px;}
+#contacts li{display: flex; align-items: center; gap: 10px; margin: 10px;}

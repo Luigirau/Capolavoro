@@ -1,0 +1,31 @@
+@import url('style.css');
+
+.title{margin: 50px 0; text-align: center;}
+
+
+
+/*** MAIN - HERO ***/
+
+#hero{height: 6vh;}
+#hero span:nth-child(1){display: none;}
+#hero span:nth-child(2){background: var(--light-green);}
+
+
+
+/*** MAIN - NUTRITION INFO ***/
+
+#nutrition-info{width: 100%;}
+#nutrition-info *{margin: 10px;}
+
+#nutrition-info ul li{display: grid;}
+
+#nutrition-info h2{display: inline; margin-bottom: 0;}
+#nutrition-info span{justify-content: flex-start;}
+#nutrition-info ul li span > span{width: 40%; height: 150px; display: flex; border-radius: 20px;}
+
+#nutrition-info ul li:nth-child(1) span > span{background: url('../images/other/nutrition-info-1.jpeg') center/cover;}
+#nutrition-info ul li:nth-child(2) span > span{background: url('../images/other/nutrition-info-2.jpg') center/cover;}
+#nutrition-info ul li:nth-child(3) span > span{background: url('../images/other/nutrition-info-3.jpeg') center/cover;}
+#nutrition-info ul li:nth-child(4) span > span{background: url('../images/other/nutrition-info-4.jpeg') center/cover;}
+
+#nutrition-info ul li span > p{max-width: 50%;}

@@ -1,0 +1,15 @@
+@import url('style.css');
+
+
+
+/*** MAIN - LOCATION ***/
+
+.title img{width: 40px; margin: 25px;}
+
+#location span{
+    width: 80vw;
+    height: 35vh;
+    display: flex;
+    background: url('../images/other/location.png') top/cover no-repeat;
+}
+#location iframe{width: 80vw; height: 45vh; border: none;}
